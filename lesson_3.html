@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="body">
+
+        <div class="menuandtitle">
+          <h1 class="bodytitle"> Gerda NyT's project</h1>
+
+          <!-- With the following unordered list I've made the menu of the website and created 4 HTML files which are now linked together in this menu.-->
+            <ul class="menu">
+              <li> <a href="index.html"> Home </a> </li>
+              <li> <a href="lesson_1.html"> Lesson 1 </a> </li>
+              <li> <a href="lesson_2.html"> Lesson 2 </a> </li>
+              <li> <a href="lesson_3.html"> Lesson 3 </a> </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2 class="subheading">Lesson 3: About CSS </h2>
+
+              <div>
+                  <p> <b>Cascading rules:</b> start with least specific and finish with very specific rules.  </p>
+
+                  <p> Ways to include CSS styling in webpages: </p>
+
+                  <!-- I chose not to use list in list, instead I've just simply used "-" for listing small things. -->
+                  <ol>
+                    <li> write CSS into the head of your HTML <br>
+                          - recommended to small projects <br>
+                          - you have to include it into a style element</li>
+                    <li> link your HTML to a separate CSS file <br>
+                          - for larger projects <br>
+                          - in your HTML doc. create the head element and add a link tag inside: <br>
+                          <br>
+                          <iframe class="CSSlinkvideo" width="420" height="315" src="https://www.youtube.com/embed/aqo3Z_d17xM" allowfullscreen></iframe></li>
+                    <li> write your style inline in your HTML code. <br>
+                          - not recommended (confusing and unprofessional)</li>
+                  </ol>
+
+                  <div>
+                    <h3> Comments in your code </h3>
+
+                      <p> It is a thing what makes you a good programmer.
+                        By using comments not only you, but any other programmer will be able to quickly understand
+                        <em>what</em>, <em>how</em> and <em>why</em> did you code the certain things.
+                        In the comments you can justify and clearly describe the different parts of your code.</p>
+                  </div>
+
+                  <div>
+                    <h3>Difference between div and span</h3>
+
+                      <p> <b>div</b> is a <em>block level element</em> (for a whole block) <br>
+                          <b>span</b> is an <em>inline element</em>, we use it for text decoration or simple inline styling<p>
+                  </div>
+
+                  <div>
+                    <h3>Difference between id and class</h3>
+
+                      <p> <b>id</b> <em>identifies an element</em>, it's unique<br>
+                          <b>class</b> can be used <em>for more elements</em>, helps to avoid repetition (often used) </p>
+                  </div>
+
+                  <div>
+                    <h3>Code, Test, Refine</h3>
+
+                        <ol>
+                          <li> look for natural boxes </li>
+                          <li> look for repeated elements, semantic elements </li>
+                          <li> write your HTML </li>
+                          <li> apply your CSS styles (from the biggest to the smallest details) </li>
+                          <li> fix (small things) </li>
+                        </ol>
+                  </div>
+
+                  <div>
+                    <h3>Testing</h3>
+
+                    <div>
+                      <h4>For different browsers</h4>
+
+                        <p> To make sure, that all the browsers can display your webs in the same way, you can use box-sizing:border_box.
+                        For other browsers you apply it differently.
+                        Check it out <a href="http://www.w3schools.com/cssref/css3_pr_box-sizing.asp"> here </a>. </p>
+                    </div>
+
+                    <div>
+                      <h4>Verifying HTML and CSS</h4>
+
+                        <p> With the below links you can make sure that your code is working and does not contain any failures.
+                            If it fails, you can find out what's the problem from its error messages. </p>
+                        <a href="https://validator.w3.org/#validate_by_input"> Verify HTML </a> <br>
+                        <a href="http://jigsaw.w3.org/css-validator/#validate_by_input"> Verify CSS </a>
+                    </div>
+
+                  </div>
+
+              </div>
+
+        </div>
+
+          <div class="validCSS"> <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /> </a>
+          </div>
+
+          <footer class="footer">
+            <div class= "foot">
+              <p> Gerda NyT 2016 </p>
+            </div>
+          </footer>
+
+  </div>
+
+  </body>
+
+</html>

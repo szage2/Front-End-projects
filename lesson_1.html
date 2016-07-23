@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="body">
+
+        <div class="menuandtitle">
+          <h1 class="bodytitle"> Gerda NyT's project</h1>
+
+            <ul class="menu">
+              <li> <a href="index.html"> Home </a> </li>
+              <li> <a href="lesson_1.html"> Lesson 1 </a> </li>
+              <li> <a href="lesson_2.html"> Lesson 2 </a> </li>
+              <li> <a href="lesson_3.html"> Lesson 3 </a> </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2 class="subheading">Lesson 1: World Wide Web </h2>
+
+            <div>
+
+                  <p> World Wide Web (www) is a collection of HTML documents -
+                    <em> HyperText Markup Language. </em>
+                    The following picture is an illustration how the web is built up of its components.
+                  </p>
+
+                  <img src="http://www.tutorialspoint.com/internet_technologies/images/internet-www_operation.jpg"
+                    alt="It shows a computer with a web browser which sends a request for the webpage, shown as an arrow through the internet
+                    where it reaches the web server with an arraow. The second arrow in the same direction represents the HTTP protocoll.
+                    Then the server responds by sending the webpage which is demonstrated by another arrow going back through the internet
+                    and reaches the computer meaning that the browser can display the webpage">
+
+                  <p> When <b>you</b> want to open a website you need <b>client</b> to do so -
+                    <em> <b> computer</b> and <b>browser.</b> </em>
+                    The browser sends request via the <b>internet</b> to <b>servers</b>.
+                    These requests using the so called <b>HTTP</b> which is a protocol for communication.
+                    The server responds by sending files (HTML) that your browser displays.
+                  </p>
+
+                <div>
+                  <h3> HTML </h3>
+
+                    <p> It is made up of: <p>
+                      <ul>
+                        <li> text content - <em>what you can see</em> </li>
+                        <li> markup - <em>what it looks like</em> </li>
+                        <li> references to other documents - <em>like images or videos</em> </li>
+                        <li> links to other pages - <em>url</em> </li>
+                      </ul>
+                </div>
+
+                <div>
+                  <h3> Markup </h3>
+
+                    <p> The markup is made up of <b>tags</b>.
+                      These tags will help you to build a website.
+                      When you want to add something to your website, you have to start with an <b>opening tab</b>
+                      and after you can add the desired content.
+                      When you typed that content you have to finish it with a <b>closing tag</b>. </p>
+
+                    <img src="http://www.tutorialwebdesign.com/wp-content/uploads/2015/12/html-elements.gif"
+                    alt="the opening tag starts with a comperison sign contains the tag, in this case it's p and ands with another comperison sign.
+                    Here comes the content, like This is a paragraph content and followed by the closing tag.
+                    It begins with comperison sign, and then the slash with the p and finally the comperison sign again.">
+
+                    <p> With the following tags you can format your text. There are more formatting tags, these are basic examples.<br>
+                        b = bold - it makes your text <b>bold</b>. <br>
+                        em = emphasis - it makes your text <em>italic</em>. <br>
+                    </p>
+                </div>
+
+                <div>
+                  <h3> HTML Attributes </h3>
+
+                    <p>
+                      For some tags you can specify attributes which provide additional information about an element, we call it value.
+                      These are always given in the opening tags.  Let's see examples.
+                    <p>
+
+                    <h4> Links and Images </h4>
+
+                      <div>
+                        <p> You can use attributes for links and images. <br>
+                          <br>
+                          a = anchor - <em>we use this tag to create a <b>link</b></em> <br>
+                          In the opening tag right after the "a" you have to write the attribute,
+                          <b>href</b>(which refers to the link)="and write/copy and paste the url link here."
+                          Then you have to close the opening tag.
+                          In the following step you have to define the content what you want to see on the website, for eg. "Slippity Sup" which is going to appear on the screen.
+                          By clicking on this, the computer will open that wepsite which you provided in the reference area (href=" "). Finish it with a closing tag. <br>
+                          <img src="https://blogtutor.com/wp-content/uploads/2012/01/anchor-tag.gif"
+                          alt="it shows exactly how you should make a link in your code. Described above."> <br>
+                          <br>
+
+                          igm = image - <em>with this tag you can add <b>image</b>s to a website</em> <br>
+                          In the opening tag right after the "img" you have to write the attribute,
+                          <b>src</b>(source)="write/copy and paste here the url link or the file name which exists on your computer",
+                          here you can add another attribute <b>alt</b>(alternate)=" ".
+                          If you don't add this, it won't break your code. However this is nice to have in case of a broken request or could be helpful for blind. <br>
+                          <img src="https://blogtutor.com/wp-content/uploads/2012/01/image-tag.gif"
+                          alt="it shows exactly how you should include an image in your code. Described above.">
+                        </p>
+                      </div>
+                </div>
+
+                <div>
+                  <h3> Whitespace </h3>
+
+                  <p>
+                    No matter how much space or enter you use between sentences or lines,
+                    it won't appear in the browser, you can only see it in your text editor.
+                    If you are willing to make some extra space you have two tags to choose from.<br>
+                    <br>
+                    br = break (void) - <em>this will make a line break</em> <br>
+                    It is an <b>inline tag</b> which means that it only covers the space between the opening tag and the closing tag. <br>
+                    <br>
+                    p = paragraph - <em>this makes an individual paragraph</em> <br>
+                    This is a <b>block tag</b> meaning that is bounded by an invisible box which filled by space.<br>
+                    <br>
+                    For further differentiation of break and paragraph, please see this <a href="https://www.youtube.com/watch?v=G0cWOZO7CV8">video</a>.
+                  </p>
+                </div>
+
+                <div>
+                  <h3> Framework of HTML document </h3>
+
+                    <p>At the first place always start with !DOCTYPE html. By giving this you will identify the type of the document.</p>
+
+                    <div class="code">
+                      <p>!DOCTYPE html<br>
+                      <br>
+                      html - opening tag<br>
+                      <br>
+                      head - opening tag<br>
+                      title - opening and closing tag<br>
+                      head - closing tag<br>
+                      <br>
+                      body - opening tag<br>
+                      contents (could be different kind of tags (eg.: h1, p,)<br>
+                      body - closing tag<br>
+                      <br>
+                      html - closing tag<br>
+                      <br></p>
+                    </div>
+
+                      <p>To see an illustration of the right indentation method, please visit this <a href="http://i.stack.imgur.com/O8aPQ.png">webpage</a>. </p>
+                </div>
+
+              </div>
+
+          <div class="validCSS"> <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /> </a>
+          </div>
+
+          <footer class="footer">
+            <div class= "foot">
+              <p> Gerda NyT 2016 </p>
+            </div>
+          </footer>
+
+        </div>
+
+    </div>
+
+  </body>
+
+</html>
